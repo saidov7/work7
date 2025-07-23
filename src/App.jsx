@@ -62,8 +62,8 @@ function App() {
         {users.map((user) => (
           <div className="user-card" key={user.id}>
             <h3>{user.name}</h3>
-            <p><strong>Email:</strong> {user.email}</p>
-            <p><strong>Age:</strong> {user.age}</p>
+            <p><strong>Email: </strong> {user.email}</p>
+            <p><strong>Age: </strong> {user.age}</p>
             <button onClick={() => handleDelete(user.id)} className="delete-btn">
               Delete
             </button>
